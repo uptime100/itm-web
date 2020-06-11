@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="141px" height="141px" viewBox="0 0 141 141" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Mark_Blue</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.06 103.383 0.06 0.79 140.279 0.79 140.279 52.0865 140.279 103.383"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-161.000000, -27.000000)">
+            <g id="Mark_Blue" transform="translate(161.000000, 27.000000)">
+                <path d="M70.139,90.171 C48.16,90.171 27.722,96.75 10.671,108.036 C23.071,127.829 45.061,141 70.139,141 C95.217,141 117.208,127.829 129.608,108.036 C112.557,96.75 92.118,90.171 70.139,90.171" id="Fill-1" fill="#50A1CC"></path>
+                <g id="Group-5">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-3"></g>
+                    <path d="M72.861,0.79 C72.748,2.81 72.686,4.843 72.686,6.892 C72.686,49.113 96.944,85.664 132.28,103.383 C137.379,93.659 140.279,82.601 140.279,70.86 C140.279,33.036 110.334,2.222 72.861,0.79" id="Fill-2" fill="#50A1CC" mask="url(#mask-2)"></path>
+                    <path d="M67.593,6.892 C67.593,4.843 67.531,2.81 67.417,0.79 C29.944,2.222 0,33.036 0,70.86 C0,82.601 2.9,93.659 7.999,103.383 C43.335,85.664 67.593,49.113 67.593,6.892" id="Fill-4" fill="#50A1CC" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

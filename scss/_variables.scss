@@ -1,0 +1,82 @@
+@import '~bulma/sass/utilities/mixins';
+
+$primary: #35d9c3;
+$less-highlight-text: #a0a6ad;
+
+//RESPONSIVE DESIGN SIZES
+//RESPONSIVE DESIGN SIZES
+$extra-small-devices: '(min-width: 0)';
+$small-devices: '(min-width: 576px)';
+$medium-devices: '(min-width: 768px)';
+$medium-devices-alt: '(min-width: 769px)';
+$large-devices: '(min-width: 992px)';
+
+//SPECIAL CASES DESIGN SIZES
+$ipadportrait: 'only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait)';
+$ipadlandscape: 'only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)';
+$ipadpro-landscape: '(min-width: 1024px)';
+$iphone7plus: '(min-width: 414px)';
+$iphone4: '(min-width: 320px)';
+$iphone5portrait: 'only screen and (min-device-width : 320px) and (max-device-width : 568px)';
+$iphone5landscape: 'only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape)';
+$iphone7-landscape: 'only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : landscape)';
+$iphone7-portrait: 'only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : portrait)';
+$iphone7plus-portrait: 'only screen and (min-device-width : 414px) and (max-device-width : 736px) and (orientation : portrait)';
+$iphone7plus-landscape: 'only screen and (min-device-width : 414px) and (max-device-width : 736px) and (orientation : landscape)';
+$ipadpro-portrait: 'only screen and (min-device-width : 1024px) and (max-device-width : 1366px) and (orientation : portrait)';
+
+//PAGE SPECIFIC
+$for-header: #25dac3;
+$shoregreen: #b9dcd2;
+$for-header-alt: $less-highlight-text;
+$strong-points-mobile: 21px;
+
+$colours: (
+    blue: #57ace0,
+    purple: #8d80bb,
+    azure: #3459a5,
+    surf: #bed9bf,
+    pink: #f9d1dd,
+    violet: #2f255c,
+    green: #35d9c3
+);
+
+$card-shadow: 0 2px 3px rgba($white, 0.1), 0 0 0 1px rgba($white, 0.1) !default;
+$card-header-shadow: 0 1px 2px rgba($white, 0.1) !default;
+
+@mixin responsive-cover-image($url, $background-color) {
+    background-image: url($url);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: $background-color;
+    width: 100%;
+}
+
+@mixin center-center-content() {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin rounded-number($height, $border-color, $bgcolor) {
+    border-radius: $height/2;
+    border: 1px solid $border-color;
+    background-color: $bgcolor;
+    height: $height;
+    width: $height;
+    line-height: $height;
+    text-align: center;
+    display: inline-block;
+}
+
+$dimensions: 16 24 32 48 64 96 128 160 256;
+
+.message.is-success .message-header{
+    background-color: $shoregreen;
+}
+.message.is-success .message-body{
+    border-color: $shoregreen;
+}
+button{
+    font-family: Montserrat, sans-serif;
+}

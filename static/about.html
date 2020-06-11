@@ -1,0 +1,665 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta name="description" content="">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="cleartype" content="on">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-TBLWNT6');</script>
+
+    <!-- End Google Tag Manager -->
+
+    <script src="https://cdn.rtb.rocks/rocks.js"></script>
+  <style>
+    /* for get.intiamte.io */
+    .page-content main.main--wide {
+      width: 100%;
+    }
+    @media screen and (min-width: 1088px) {
+      .container {
+        max-width: none !important;
+        width: auto !important;
+      }
+    }
+    .card-header h1 {
+      display: none;
+    }
+    /* for get.intiamte.io */
+
+    * {
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+
+    p {
+      margin: 0;
+      padding: 0;
+    }
+
+    .button {
+      -moz-appearance: none;
+      -webkit-appearance: none;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      border: 1px solid transparent;
+      border-radius: 3px;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      display: -webkit-inline-box;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+      font-size: 1rem;
+      height: 2.25em;
+      -webkit-box-pack: start;
+      -ms-flex-pack: start;
+      justify-content: flex-start;
+      line-height: 1.5;
+      padding-left: calc(.625em - 1px);
+      padding-right: calc(.625em - 1px);
+      position: relative;
+      vertical-align: top;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      background-color: #fff;
+      border-color: #dbdbdb;
+      color: #363636;
+      cursor: pointer;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      padding: calc(.375em - 1px) .75em;
+      text-align: center;
+      white-space: nowrap;
+      text-decoration: none;
+      font-family: Montserrat, sans-serif;
+    }
+
+    .button.is-large {
+      font-size: 1.5rem;
+    }
+
+    .visit-itm-button {
+      background-color: #333366;
+      border-color: transparent!important;
+      color: #fff!important;
+      border-radius: 290486px;
+      padding: 25px;
+    }
+
+    .main {
+      color: #828282;
+    }
+
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: Montserrat, sans-serif;
+      font-weight: 600;
+      font-size: 1.75rem;
+      margin: 0;
+    }
+
+    h1.main {
+      margin-bottom: 1rem;
+    }
+
+    p.content,
+    p.details,
+    ul {
+      font-family: Montserrat, sans-serif;
+      line-height: 1.5rem;
+      color: #4a4a4a;
+    }
+
+    p.content {
+      margin-bottom: 1rem;
+    }
+
+    .container {
+      margin: 0 auto;
+      position: relative;
+    }
+
+    .brand-image {
+      background: url('https://intimate.io/images/about-intimate2.png') no-repeat transparent;
+      height: 300px;
+      background-position: top right;
+      background-size: cover;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .brand-image .content {
+      position: absolute;
+      text-align: center;
+      font-family: Montserrat, sans-serif;
+      color: #214986;
+      font-weight: bold;
+      line-height: 1.2;
+      font-size: 1.75rem;
+      margin: 0;
+    }
+
+    .more-details {
+      background-color: #214986;
+      color: #62b5e5!important;
+      padding: 5px;
+
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      -ms-flex-direction: row;
+      flex-direction: row;
+    }
+
+    .more-details h2 {
+      font-size: 1.25rem;
+      margin-bottom: 0;
+      color: #fff;
+      font-weight: normal;
+    }
+
+    .more-details p.details {
+      margin: 0;
+      color: #62b5e5!important;
+    }
+
+    .entity {
+      -webkit-box-flex: 1;
+      -ms-flex: 1 1 40%;
+      flex: 1 1 40%;
+      padding: 10px;
+    }
+
+    .feature {
+      padding: 0.75rem;
+      display: block;
+      -ms-flex-preferred-size: 0;
+      flex-basis: 0;
+      -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -ms-flex-negative: 1;
+      flex-shrink: 1;
+    }
+
+    h3.feature-list {
+      font-size: 1.5rem;
+      color: #0d2c5e;
+      text-align: left;
+      margin-bottom: .75rem;
+    }
+
+    .paragraph-container {
+      padding: 0.75rem;
+    }
+
+
+    .action{
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      flex-direction: column;
+    }
+    @media screen and (min-width: 768px) {
+
+      .features {
+        display: flex;
+      }
+      .entity {
+        -webkit-box-flex: 0;
+        -ms-flex: none;
+        flex: none;
+        padding: 10px;
+      }
+      .feature {
+        flex: 1 0 50%;
+      }
+    }
+
+    @media screen and (min-width: 769px) {
+      .brand-image {
+        background: url('https://intimate.io/images/about-intimate2.png') no-repeat transparent;
+        height: 300px;
+        background-position: top left;
+        background-size: cover;
+        position: relative;
+      }
+      .brand-image .content {
+        top: 1vh;
+        left: 3vw;
+        width: 350px;
+        text-align: left;
+      }
+
+    }
+
+    @media screen and (min-width: 1088px) {
+      .container {
+        max-width: 960px;
+        width: 960px;
+      }
+      .brand-image {
+        height: 400px;
+      }
+      .brand-image .content {
+        top: 5vh;
+        left: 3vw;
+        width: 350px;
+        text-align: left;
+      }
+      .action div{
+        text-align: center;
+      }
+    }
+
+    .gallery figure {
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: white;
+      padding: 1rem;
+    }
+
+    .gallery {
+      display: grid;
+      width: 100%;
+      grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+      grid-gap: 1rem;
+    }
+
+    .gallery-2 {
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      grid-gap: 1rem;
+    }
+
+    .image img {
+      display: block;
+      height: auto;
+      width: 100%;
+    }
+
+    .image.is-128x128 {
+      height: 128px;
+      width: 128px;
+    }
+
+    .image.is-160x160 {
+      height: 160px;
+      width: 160px;
+    }
+
+
+    .grayscale {
+      filter: grayscale(100%);
+      max-height: 80px;
+      width: auto;
+    }
+
+    .gbg {
+      height: 80px;
+    }
+
+    .get-intimate {
+      text-align: center;
+    }
+    .primary-itm-button{
+      -moz-appearance: none;
+      -webkit-appearance: none;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      border: 1px solid transparent;
+      border-radius: 3px;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      display: -webkit-inline-box;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+      font-size: 1rem;
+      height: 2.25em;
+      -webkit-box-pack: start;
+      -ms-flex-pack: start;
+      justify-content: flex-start;
+      line-height: 1.5;
+      padding-left: calc(.625em - 1px);
+      padding-right: calc(.625em - 1px);
+      position: relative;
+      vertical-align: top;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      background-color: #fff;
+      border-color: #dbdbdb;
+      color: #363636;
+      cursor: pointer;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      padding: calc(.375em - 1px) .75em;
+      text-align: center;
+      white-space: nowrap;
+      background-color: #35d9c3;
+      border-color: transparent!important;
+      color: #fff!important;
+      border-radius: 290486px;
+      padding: 0 25px;
+      font-family: Montserrat,Adobe Blank,sans-serif;
+    }
+    .buy-intimate{
+      margin-top: 1rem;
+      text-transform: uppercase;
+      font-size: 1.5rem!important;
+      margin-bottom: 1rem;
+    }
+    .download-whitepaper{
+      font-size: 1.25rem;
+    }
+    .button .icon:last-child:not(:first-child) {
+        margin-left: .1875em;
+        margin-right: calc(-.375em - 1px);
+    }
+
+  </style>
+</head>
+
+<body>
+<div class="container">
+<h1 class="main">About the intimate Token</h1>
+<div class="brand-image">
+<div class="content">
+<p>indulge your adult desires privately with intimate, no more credit card bills to explain. The adult crypto.</p>
+<div class="action">
+<div>
+  <a href="https://get.intimate.io/" target="_blank" class="buy-intimate primary-itm-button button">
+    <span>
+        Buy intimate Now
+    </span>
+    <span class="icon is-small">
+      <i class="fa fa-chevron-right"></i>
+    </span>
+  </a>
+</div>
+<div>
+  <a href="https://intimate.io/whitepaper" target="_blank" class="download-whitepaper primary-itm-button button">
+      <span>
+      Download Whitepaper
+      </span>
+      <span class="icon is-small">
+        <i class="fa fa-chevron-right"></i>
+      </span>
+    </a>
+</div>
+</div>
+</div>
+</div>
+<div class="more-details flex-container">
+<div class="entity">
+<h2 class="hdr">ITM</h2>
+<p class="details">symbol</p>
+</div>
+<div class="entity">
+<h2 class="hdr">100M</h2>
+<p class="details">token supply</p>
+</div>
+<div class="entity">
+<h2 class="hdr">60M (Max)</h2>
+<p class="details">crowd sale</p>
+</div>
+<div class="entity">
+<h2 class="hdr">$5M USD</h2>
+<p class="details">minimum (Reached)</p>
+</div>
+<div class="entity">
+<h2 class="hdr">$16.85M USD</h2>
+<p class="details">target</p>
+</div>
+</div>
+<div class="about">
+<div class="paragraph-container">
+<p class="content">The adult industry includes everything from live camming and online content, escorting where legal, swinging and
+dating websites, novelties, lingerie and ecommerce sites as well as sexual health apps. Legal tax paying businesses
+in all of these categories have suffered institutional bias from banks, increased fees, frozen accounts etc due
+to the stigma that surrounds the adult industry - all of which affect YOU, the consumer.</p>
+<p class="content">In the adult services industry a provider’s sense of safety and willingness to pursue new business is reliant on
+trusting clients. In the absence of trust, service providers need to take additional, often inadequate, security
+measures prior to meeting a client.</p>
+</div>
+<div class="features">
+<div class="feature">
+<h3 class="feature-list">Consumer Features</h3>
+<p class="feature content">So much of todays sexploration, dating and pleasure begins online. intimate allows consumers to indulge and explore
+  privately whilst building a positive digital reputation.</p>
+<ul class="dashed">
+  <li>Payments no longer appear on your credit card</li>
+  <li>Personal ID can be hidden but remain verified</li>
+  <li>Face to face interactions become safer through verification</li>
+</ul>
+</div>
+<div class="feature">
+<h3 class="feature-list">Industry Features</h3>
+<ul class="dashed">
+  <li>Customer spend more without fear of being discovered</li>
+  <li>Streamlined banking with ZERO chargebacks</li>
+  <li>Suitable for all adult good and services</li>
+  <li>We invest in driving adoption and driving users to your platforms</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="paragraph-container">
+<h3 class="feature-list">Our Partners</h3>
+</div>
+<div class="gallery">
+<figure class="image is-128x128">
+<a href="http://www.harddrive.xxx/" alt="Harddrive Webcam" target="_blank">
+<img class="grayscale" src="https://intimate.io/partners/hd-webcam.png" />
+</a>
+</figure>
+<figure class="image is-128x128">
+<a href="https://emojibator.com/" alt="Emojibator" target="_blank">
+<img class="grayscale" src="https://intimate.io/partners/emojibator_new_logo.png" />
+</a>
+</figure>
+<figure class="image is-128x128">
+<a href="http://urj.jp/" alt="Urban Resorts Japan" target="_blank">
+<img class="grayscale" src="https://intimate.io/partners/urj04.png" />
+</a>
+</figure>
+<figure class="image is-128x128">
+<a href='https://badoinkvr.com/' alt="Badoink VR" target="_blank">
+<img class="grayscale" src="https://intimate.io/partners/BaDoink-Logo.jpg" />
+</a>
+</figure>
+<figure class="image is-128x128">
+<a href="https://www.televisionx.com/" alt="TelevisionX" target="_blank">
+<img class="grayscale" src="https://intimate.io/partners/tvx.png" />
+</a>
+</figure>
+<figure class="image is-128x128">
+<a href="http://prudish.com/" alt="Prudish" target="_blank">
+<img class="grayscale" src="https://intimate.io/partners/prudish.png" />
+</a>
+</figure>
+<figure class="image is-128x128">
+<a href="https://www.toomuchmedia.com/" alt="Too Much Media" target="_blank">
+<img class="grayscale" src="https://intimate.io/partners/tmm.png" />
+</a>
+</figure>
+<figure class="image is-128x128">
+<a href="https://smilemakerscollection.com/" alt="Smile Makers Collection" target="_blank">
+<img class="grayscale" src="https://intimate.io/partners/smile-makers.png" />
+</a>
+</figure>
+<figure class="image is-128x128">
+<a href='https://rende.vu' alt="Rendevu" target="_blank">
+<img class="logo" src="https://intimate.io/partners/rendevu2.png" />
+</a>
+</figure>
+<figure class="image is-128x128">
+<a href="http://www.mojohost.com/" alt="Mojo Host" target="_blank">
+<img class="grayscale" src="https://intimate.io/partners/mojo-host.png" />
+</a>
+</figure>
+<figure class="image is-128x128">
+<a href="https://www.sexpo.com.au/" alt="Sexpo" target="_blank">
+<img class="grayscale" src="https://intimate.io/partners/sexpo.png" />
+</a>
+</figure>
+<figure class="image is-128x128">
+<a href="https://www.clubx.com.au/" alt="Club X" target="_blank">
+<img class="grayscale" src="https://intimate.io/partners/clubx.png" />
+</a>
+</figure>
+<figure class="image is-128x128">
+<a href="https://www.paulraymond.xxx/" alt="Paul Raymonds Publication" target="_blank">
+<img class="grayscale" src="https://intimate.io/partners/prp-logo-footer.png" />
+</a>
+</figure>
+<figure class="image is-128x128">
+<a href="https://www.lucasentertainment.com/" alt="Lucas Entertainment" target="_blank">
+<img class="grayscale" src="https://intimate.io/partners/lucas.jpg" />
+</a>
+</figure>
+<figure class="image is-128x128">
+<a href="https://www.ynotcam.com/" alt="YNot Cam" target="_blank">
+<img class="grayscale" src="https://intimate.io/partners/ynotcam2b.png" />
+</a>
+</figure>
+<figure class="image is-128x128">
+<a href="https://www.safemovement.org/" alt="SAFE Movement" target="_blank">
+<img class="grayscale" src="https://intimate.io/partners/safe-logo.png" />
+</a>
+</figure>
+
+<figure class="image is-128x128">
+  <a href="http://sexualtraining.co.uk/" alt="Sexual Training" target="_blank">
+    <img class="grayscale" src="/partners/sexual-training.png" />
+  </a>
+</figure>
+
+<figure class="image is-128x128">
+  <a href="http://redheaven.net/" alt="Red Heaven" target="_blank">
+    <img class="grayscale" src="/partners/RH_NETandWhiteBG.jpg" />
+  </a>
+</figure>
+
+<figure class="image is-128x128">
+  <a href="http://www.homesydney.com/" alt="Home Sydney" target="_blank">
+    <img class="grayscale" src="/partners/homethevenue.png" />
+  </a>
+</figure>
+
+<figure class="image is-128x128">
+  <a href="http://dreamsofspanking.com/" alt="Dreams of Spanking" target="_blank">
+    <img class="grayscale" src="/partners/dreams-of-spanking.png" />
+  </a>
+</figure>
+
+<figure class="image is-128x128">
+  <a href="http://arlcash.com/" alt="ARL Cash" target="_blank">
+    <img class="grayscale" src="/partners/arl.png" />
+  </a>
+</figure>
+
+<figure class="image is-128x128">
+  <a href="http://www.3am.xxx/" alt="3AM.xxx" target="_blank">
+    <img class="grayscale" src="/partners/3amxxx.png" />
+  </a>
+</figure>
+
+<figure class="image is-128x128">
+  <a href="http://www.sexymomma.com/" alt="Sexy Momma" target="_blank">
+    <img class="grayscale" src="/partners/sexy-momma.png" />
+  </a>
+</figure>
+
+<figure class="image is-128x128">
+  <a href="http://www.lukehardyxxx.com/" alt="Luke Hardy" target="_blank">
+    <img class="grayscale" src="/partners/Luke Hardy.png" />
+  </a>
+</figure>
+
+<figure class="image is-128x128">
+  <a href="http://www.brucesevenfilms.com/" alt="Bruce Seven Films" target="_blank">
+    <img class="grayscale" src="/partners/BruceSeven.jpg" />
+  </a>
+</figure>
+
+<figure class="image is-128x128">
+  <a href="http://www.pascalssubsluts.com/" alt="Pascals Sub Sluts" target="_blank">
+    <img class="grayscale" src="/partners/pascals-logo.png" />
+  </a>
+</figure>
+
+<figure class="image is-128x128">
+  <a href="http://www.edpowers.com/" alt="Ed Powers" target="_blank">
+    <img class="grayscale" src="/partners/edpowers.png" />
+  </a>
+</figure>
+
+<figure class="image is-128x128">
+  <a href="https://www.getorgasmic.com/" alt="Get Orgasmic" target="_blank">
+    <img class="grayscale" src="/partners/get-orgasmic.png" />
+  </a>
+</figure>
+
+<figure class="image is-128x128">
+  <a href="http://www.cybersocket.com/" alt="Cybersocket" target="_blank">
+    <img class="grayscale" src="/partners/cybersocket.png" />
+  </a>
+</figure>
+
+<figure class="image is-128x128">
+  <a href="http://www.eros.org.au/" alt="Eros" target="_blank">
+    <img class="grayscale" src="/partners/eros_logo.png" />
+  </a>
+</figure>
+
+<figure class="image is-128x128">
+  <a href="https://www.freespeechcoalition.com/" alt="fsc" target="_blank">
+    <img class="grayscale" src="/partners/fsc.png" />
+  </a>
+</figure>
+
+</div>
+<div class="get-intimate">
+<a href="https://intimate.io" target="_blank" class="button is-large visit-itm-button">
+<span>visit intimate.io</span>
+<span class="icon is-small">
+<i class="fa fa-chevron-right"></i>
+</span>
+</a>
+</div>
+</div>
+</body>
+
+</html>

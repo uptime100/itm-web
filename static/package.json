@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "serve -c 3600000"
+  },
+  "now": {
+    "alias": "origin.intimate.io"
+  },
+  "devDependencies": {
+    "serve": "^6.3.1"
+  }
+}
