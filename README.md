@@ -1,6 +1,4 @@
-# intimate-marketing-website
 
-> intimate (ITM) is a token for payments, privacy, and reputation across the adult industry. intimate allows access to high quality content and interactions without having to disclose personal information, but still enjoying the benefits of reputation and reward industry wide
 
 ## Build Setup
 
